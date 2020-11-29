@@ -1,0 +1,45 @@
+{
+  "name": "hackrf-car-remote-control",
+  "version": "0.0.1",
+  "description": "Drive a radio controlled car with Node.js and HackRF",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7s4r/hackrf-car-remote-control.git"
+  },
+  "keywords": [
+    "radio",
+    "car",
+    "hackrf",
+    "nodejs",
+    "race",
+    "racing",
+    "27MHz",
+    "remote",
+    "control"
+  ],
+  "author": "Gueorgui AGAPOV",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/7s4r/hackrf-car-remote-control/issues"
+  },
+  "homepage": "https://github.com/7s4r/hackrf-car-remote-control#readme",
+  "dependencies": {
+    "hackrf.js": "^1.0.0-rc1",
+    "keypress": "^0.2.1",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
